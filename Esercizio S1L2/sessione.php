@@ -4,6 +4,4 @@ session_start();
 
 echo $_SESSION['utente'];
 
-
-
 ?>
