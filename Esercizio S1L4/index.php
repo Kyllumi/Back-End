@@ -65,23 +65,23 @@ if (!$mysqli->query($sql)) {
 
 
 // Visualizzo i dati degli utenti
-$sql = "SELECT * FROM users";
-$result = [];
-$res = $mysqli->query($sql); // Mi ritorno i dati
+// $sql = "SELECT * FROM users";
+// $result = [];
+// $res = $mysqli->query($sql); // Mi ritorno i dati
 
-if ($res) {
-    // var_dump($res);
-    while ($row = $res->fetch_assoc()) {
-        $result[] = $row;
-        // array_push($result, $row);
-    }
+// if ($res) {
+//     // var_dump($res);
+//     while ($row = $res->fetch_assoc()) {
+//         $result[] = $row;
+//         // array_push($result, $row);
+//     }
 
-    print_r($result);
-}
+//     print_r($result);
+// }
 
-foreach ($result as $key => $value) {
-    echo '<p>' . $value['id'] . '<br>' . $value['name'] . '<br>' . $value['surname'] . '<br>' . $value['email'] . '<br>' . $value['age'] . '<p>';
+// foreach ($result as $key => $value) {
+//     echo '<p>' . $value['id'] . '<br>' . $value['name'] . '<br>' . $value['surname'] . '<br>' . $value['email'] . '<br>' . $value['age'] . '<p>';
    
-}
+// }
 
 ?>
