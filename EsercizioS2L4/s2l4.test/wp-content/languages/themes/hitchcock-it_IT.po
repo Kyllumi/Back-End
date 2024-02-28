@@ -1,0 +1,335 @@
+# Translation of Themes - Hitchcock in Italian
+# This file is distributed under the same license as the Themes - Hitchcock package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-04-14 12:42:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Hitchcock\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Hitchcock is a minimal portfolio theme for designers, photographers and other creatives. It features a beautiful responsive design, Block Editor support, a social icon menu, JetPack infinite scroll, custom accent color, custom header image, support for the gallery post format, the option to always show post preview titles, editor styles, and much more. Demo: https://andersnoren.se/themes/hitchcock/"
+msgstr "Hitchcock è un tema di portfolio minimale per designer, fotografi e altri creativi. È dotato di un bellissimo design responsive, editor a blocchi, un menu di icone social, scorrimento infinito JetPack, colore in risalto personalizzato, immagine dell'header personalizzata, formato degli articoli della galleria, l'opzione per mostrare sempre i titoli dell'anteprima degli articoli, gli stili dell'editor e molto altro . Demo: https://andersnoren.se/themes/hitchcock/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Hitchcock"
+msgstr "Hitchcock"
+
+#: functions.php:388
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "I widgets in quest'area area saranno mostrati nella seconda colonna del footer."
+
+#: functions.php:386
+msgid "Footer #2"
+msgstr "Footer #2"
+
+#: functions.php:381
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "I widgets in quest'area area saranno mostrati nella prima colonna del footer."
+
+#: functions.php:379
+msgid "Footer #1"
+msgstr "Footer #1"
+
+#: functions.php:269
+msgid "Day"
+msgstr "Giorno"
+
+#: functions.php:229
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: functions.php:227
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: functions.php:225
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Stati"
+
+#: functions.php:223
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Link"
+
+#: functions.php:221
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: functions.php:219
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Video"
+
+#: functions.php:217
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Immagini"
+
+#: functions.php:215
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: functions.php:213
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "A lato"
+
+#: header.php:22
+msgid "Skip to the content"
+msgstr "Salta al contenuto"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "Cerca"
+
+#: singular.php:84
+msgid "Edit Post"
+msgstr "Modifica articolo"
+
+#: functions.php:240
+msgid "Page %1$s of %2$s"
+msgstr "Pagina %1$s di %2$s"
+
+#: functions.php:608
+msgctxt "Short name of the larger font size in the Gutenberg editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:607
+msgctxt "Name of the larger font size in Gutenberg"
+msgid "Larger"
+msgstr "Più grande"
+
+#: functions.php:602
+msgctxt "Short name of the large font size in the Gutenberg editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:601
+msgctxt "Name of the large font size in Gutenberg"
+msgid "Large"
+msgstr "Grande"
+
+#: functions.php:596
+msgctxt "Short name of the regular font size in the Gutenberg editor."
+msgid "N"
+msgstr "N"
+
+#: functions.php:595
+msgctxt "Name of the regular font size in Gutenberg"
+msgid "Normal"
+msgstr "Normale"
+
+#: functions.php:590
+msgctxt "Short name of the small font size in the Gutenberg editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:589
+msgctxt "Name of the small font size in Gutenberg"
+msgid "Small"
+msgstr "Piccolo"
+
+#: functions.php:579
+msgctxt "Name of the white color in the Gutenberg palette"
+msgid "White"
+msgstr "Bianco"
+
+#: functions.php:574
+msgctxt "Name of the light gray color in the Gutenberg palette"
+msgid "Light Gray"
+msgstr "Grigio chiaro"
+
+#: functions.php:569
+msgctxt "Name of the dark gray color in the Gutenberg palette"
+msgid "Dark Gray"
+msgstr "Grigio scuro"
+
+#: functions.php:564
+msgctxt "Name of the black color in the Gutenberg palette"
+msgid "Black"
+msgstr "Nero"
+
+#: functions.php:559
+msgctxt "Name of the accent color in the Gutenberg palette"
+msgid "Accent"
+msgstr "In risalto"
+
+#: inc/classes/class-hitchcock-customize.php:34
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Ridimensiona il logo alla metà della dimensione caricata, rendendolo più nitido su schermi ad alta risoluzione."
+
+#: inc/classes/class-hitchcock-customize.php:33
+msgid "Retina logo"
+msgstr "Logo retina"
+
+#: inc/classes/class-hitchcock-customize.php:49
+msgid "Check to always show the titles in the post previews."
+msgstr "Seleziona per mostrare sempre i titoli nelle anteprime degli articoli."
+
+#: inc/classes/class-hitchcock-customize.php:48
+msgid "Show Preview Titles"
+msgstr "Mostra titoli di anteprima"
+
+#: inc/classes/class-hitchcock-customize.php:18
+msgid "Customize the theme settings for Hitchcock."
+msgstr "Personalizza le impostazioni del tema Hitchcock."
+
+#: inc/classes/class-hitchcock-customize.php:15
+msgid "Theme Options"
+msgstr "Opzioni del tema"
+
+#: singular.php:109
+msgid "Previous"
+msgstr "Precedente"
+
+#: singular.php:98 singular.php:109
+msgid "Post"
+msgstr "Articolo"
+
+#: singular.php:98
+msgid "Next"
+msgstr "Succ"
+
+#: singular.php:74
+msgid "In"
+msgstr "Tra"
+
+#: index.php:57
+msgid "No results. Try again, would you kindly?"
+msgstr "Nessun risultato. Vuoi riprovare?"
+
+#: functions.php:274
+msgid "Search Results"
+msgstr "Risultati della ricerca"
+
+#: singular.php:55
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: searchform.php:7
+msgid "Search Form"
+msgstr "Modulo di ricerca"
+
+#: inc/classes/class-hitchcock-customize.php:61
+msgid "Accent Color"
+msgstr "Colore rifinitura"
+
+#: functions.php:527
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: functions.php:516
+msgid "Reply"
+msgstr "Risposta"
+
+#: functions.php:499
+msgid "Post Author"
+msgstr "Autore articolo"
+
+#: functions.php:481 functions.php:523 singular.php:118
+msgid "Edit"
+msgstr "Modifica"
+
+#: functions.php:481
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:53
+msgid "Social Menu"
+msgstr "Menu social"
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: footer.php:25
+msgid "Theme by"
+msgstr "Tema di"
+
+#: content.php:14
+msgid "Sticky"
+msgstr "In evidenza"
+
+#: comments.php:78
+msgid "Leave a Reply"
+msgstr "Invia una risposta"
+
+#: comments.php:62
+msgid "Newer"
+msgstr "più recente"
+
+#: comments.php:58
+msgid "Older"
+msgstr "meno recente"
+
+#: comments.php:41
+msgid "Pingback"
+msgid_plural "Pingbacks"
+msgstr[0] "Pingback"
+msgstr[1] "Pingback"
+
+#: comments.php:21 comments.php:88
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Commento"
+msgstr[1] "Commenti"
+
+#: functions.php:278
+msgid "Archives"
+msgstr "Archivi"
+
+#: functions.php:263
+msgid "Author"
+msgstr "Autore"
+
+#: functions.php:261
+msgid "Tag"
+msgstr "Tag"
+
+#: functions.php:259
+msgid "Category"
+msgstr "Categoria"
+
+#: functions.php:265
+msgid "Year"
+msgstr "Anno"
+
+#: functions.php:267
+msgid "Month"
+msgstr "Mese"
+
+#: 404.php:17
+msgid "It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below."
+msgstr "Sembra che tu abbia provato ad aprire una pagina che non esiste. Potrebbe essere stata eliminata, spostata o non essere mai esistita. Prova a cercare utilizzando il modulo di ricerca qui sotto."
+
+#: 404.php:10
+msgid "Error 404"
+msgstr "Errore 404 - Non trovato"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://andersnoren.se"
+msgstr "https://www.andersnoren.se"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Anders Norén"
+msgstr "Anders Norén"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://andersnoren.se/teman/hitchcock-wordpress-theme/"
+msgstr "https://www.andersnoren.se/teman/hitchcock-wordpress-theme/"

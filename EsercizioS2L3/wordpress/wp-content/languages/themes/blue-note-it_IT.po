@@ -1,0 +1,438 @@
+# Translation of Themes - Blue Note in Italian
+# This file is distributed under the same license as the Themes - Blue Note package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-15 15:37:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: it\n"
+"Project-Id-Version: Themes - Blue Note\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Blue Note is an elegant and fun block theme inspired by jazz and the record label \"Blue Note Records\". Its timeless typography and modern, responsive layouts are perfect for writers and bloggers."
+msgstr "Blue Note è un tema a blocchi elegante e divertente, ispirato dal jazz e dall'etichetta discografica \"Blue Note Records\". La sua tipografia moderna e senza tempo, e i suoi layout responsive sono perfetti per blogger e per chi scrive in generale."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Blue Note"
+msgstr "Blue Note"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Large footer"
+msgstr "Footer grande"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Footer"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Large Header"
+msgstr "Header grande"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Header"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single, no sidebar"
+msgstr "Articolo singolo, senza barra laterale"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "10"
+msgstr "10"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "9"
+msgstr "9"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "8"
+msgstr "8"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "7"
+msgstr "7"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and Base"
+msgstr "Nero e Base"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and purple"
+msgstr "Nero e viola"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and orange"
+msgstr "Nero e arancione"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and yellow"
+msgstr "Nero e giallo"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and green"
+msgstr "Nero e verde"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and blue"
+msgstr "Nero e blu"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Black and pink"
+msgstr "Nero e rosa"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secondario"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primario"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Contrast"
+msgstr "Contrasto"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr "Base"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Font di sistema"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Enorme"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX large"
+msgstr "Grandissimo"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr "Molto grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grande"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Medio"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr "Normale"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Piccolo"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra small"
+msgstr "Molto piccolo"
+
+#: patterns/sidebar-content.php
+msgctxt "Pattern title"
+msgid "Sidebar Content"
+msgstr "Contenuto barra laterale"
+
+#: patterns/quote-with-image.php
+msgctxt "Pattern title"
+msgid "Quote with image"
+msgstr "Citazione con immagine"
+
+#: patterns/posts.php
+msgctxt "Pattern title"
+msgid "Post list"
+msgstr "Elenco degli articoli"
+
+#: patterns/post-meta-nav.php
+msgctxt "Pattern title"
+msgid "Post meta & navigation"
+msgstr "Meta articolo e navigazione"
+
+#: patterns/pink-image-text.php
+msgctxt "Pattern title"
+msgid "Pink image and text"
+msgstr "Immagine rosa e testo"
+
+#: patterns/media-text.php
+msgctxt "Pattern title"
+msgid "Image and text"
+msgstr "Immagine e testo"
+
+#: patterns/image-thin-stripes.php
+msgctxt "Pattern title"
+msgid "Striped image and text"
+msgstr "Immagine a strisce e testo"
+
+#: patterns/image-thick-stripes.php
+msgctxt "Pattern title"
+msgid "Striped image, text and button"
+msgstr "Immagine a strisce, testo e pulsante"
+
+#: patterns/home.php
+msgctxt "Pattern title"
+msgid "home"
+msgstr "home"
+
+#: patterns/hidden-comments.php
+msgctxt "Pattern title"
+msgid "Hidden comments"
+msgstr "Commenti nascosti"
+
+#: patterns/hidden-404.php
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr "404 nascosto"
+
+#: patterns/footer-large.php
+msgctxt "Pattern title"
+msgid "Large footer"
+msgstr "Footer grande"
+
+#: patterns/footer-default.php
+msgctxt "Pattern title"
+msgid "Default Footer"
+msgstr "Footer predefinito"
+
+#: patterns/call-to-action.php
+msgctxt "Pattern title"
+msgid "Blue Note Call to Action"
+msgstr "Invito all'azione Blue Note"
+
+#: patterns/blue-image-with-quote.php
+msgctxt "Pattern title"
+msgid "Blue Image with Quote"
+msgstr "Immagine blu con citazione"
+
+#: patterns/black-image-with-text.php
+msgctxt "Pattern title"
+msgid "Black Image with Text"
+msgstr "Immagine nera con testo"
+
+#: patterns/sidebar-content.php:36
+msgid "Categories"
+msgstr "Categorie"
+
+#: patterns/sidebar-content.php:27
+msgid "Subscribe"
+msgstr "Iscriviti"
+
+#: patterns/sidebar-content.php:23
+msgid "Get new content delivered directly to your inbox. Never miss a new post!"
+msgstr "Ricevi nuovi contenuti direttamente nella tua casella di posta. Non perderti neanche un nuovo articolo!"
+
+#: patterns/sidebar-content.php:20
+msgid "Subscribe to our newsletter"
+msgstr "Iscriviti alla nostra newsletter"
+
+#: patterns/sidebar-content.php:11
+msgid "Latest Post"
+msgstr "Ultimo articolo"
+
+#: patterns/post-meta-nav.php:43
+msgid "Next"
+msgstr "Successivo"
+
+#: patterns/post-meta-nav.php:34
+msgid "Previous"
+msgstr "Precedente"
+
+#: patterns/post-meta-nav.php:20
+msgid "Tags:"
+msgstr "Tag:"
+
+#: patterns/post-meta-nav.php:16
+msgctxt "separator"
+msgid "/"
+msgstr "/"
+
+#: patterns/post-meta-nav.php:11
+msgid "Author:"
+msgstr "Autore:"
+
+#: patterns/pink-image-text.php:17
+msgid "Duke Ellington at the Hurricane Club, 1943"
+msgstr "Duke Ellington all'Hurricane Club, 1943"
+
+#: patterns/media-text.php:24
+msgid "Then, Coltrane left to lead his own band, releasing the album, Giant Steps. The album, which was entirely composed by Coltrane, was revolutionary, and within it, Coltrane used a technique for chord progressions which had never been used before, hence it being named a “Coltrane change.”"
+msgstr "In seguito, Coltrane lasciò per formare la sua band e pubblicare l'album Giant Steps. Un album rivoluzionario, interamente composto da Coltrane, all'interno del quale Coltrane utilizzò una tecnica per le progressioni degli accordi mai usata in precedenza, che prese il nome di <en>Coltrane Changes</en>, il \"cambio Coltrane\"."
+
+#: patterns/media-text.php:20
+msgid "However, Coltrane had yet to reach his full potential, suffering from addiction to alcohol and heroin for most of his life after serving in the Navy. Due to Coltrane’s violation of Davis’ rule barring the use of alcohol and narcotics, he was kicked out of the quintet. Determined to kick this habit, Coltrane went cold turkey, completely stopping his use of drugs, a decision which almost killed him. After moving past his addiction, Coltrane rejoined Miles Davis in a sextet, which, over two years, released several critically acclaimed records."
+msgstr "Tuttavia, Coltrane non aveva ancora espresso tutto il suo potenziale, a causa della dipendenza da alcool e eroina, durata gran parte della sua vita dopo il suo servizio in Marina. Fu cacciato dal quintetto per aver violato la regola di Davis, che proibiva l'uso di alcool e narcotici. Determinato a liberarsi di questo vizio, da un giorno all'altro Coltrane smise completamente di usare droghe, una decisione che quasi lo uccise. Dopo essersi messo alle spalle la sua dipendenza, Coltrane si unì nuovamente a Miles Davis in un sestetto che, nel corso di due anni, pubblicò vari dischi acclamati dalla critica."
+
+#: patterns/media-text.php:16
+msgid "When Coltrane was only 12 years old, his father, aunt, and grandparents all died in quick succession, leaving only his mother to take care of him. At 17, Coltrane begin playing the alto saxophone, and, after serving time in the Navy, people begin to take notice of his abilities. Eventually, in 1955, Coltrane joined Miles Davis and three other musicians to form what is known as the “First Great Quintet,” which released four successful albums in the span of around 18 months."
+msgstr "Quando Coltrane aveva solo 12 anni, suo padre, sua zia e i suoi nonni morirono tutti in rapida successione, lasciandolo solo con sua madre ad occuparsi di lui. A 17 anni, Coltrane iniziò a suonare il sassofono contralto. Dopo un periodo di servizio nella Marina, la gente iniziò a notare le sue abilità. Alla fine, nel 1955, Coltrane si unì a Miles Davis e a tre altri musicisti per formare quello che è ora conosciuto come \"il primo grande quintetto\", che pubblicò quattro album di successo nel giro di 18 mesi."
+
+#: patterns/media-text.php:12
+msgid "Pivotal Moments"
+msgstr "Momenti cruciali"
+
+#: patterns/image-thin-stripes.php:9
+msgid "Waters held three jobs: in <em>As Thousands Cheer</em>, as a singer for Jack Denny &amp; His Orchestra on a national radio program, and in nightclubs. She became the highest-paid performer on Broadway."
+msgstr "Waters ha avuto tre lavori: parte del cast di <em>As Thousands Cheer</em>, cantante per Jack Denny e la sua orchestra in un programma radiofonico nazionale, e nei nightclub, diventando l'artista più pagata a Broadway."
+
+#: patterns/image-thick-stripes.php:18
+msgid "Learn More"
+msgstr "Approfondisci"
+
+#: patterns/image-thick-stripes.php:13 patterns/quote-with-image.php:13
+msgid "Cab Calloway was another of the original Cotton Club performers."
+msgstr "Cab Calloway è stato un altro dei performer originali del Cotton Club."
+
+#: patterns/home.php:60 patterns/posts.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Non c'è nulla che corrisponde ai termini della tua ricerca. Riprova con parole chiave diverse."
+
+#: patterns/home.php:38
+msgid "Latest Posts"
+msgstr "Ultimi articoli"
+
+#: patterns/home.php:34
+msgid "See Posts"
+msgstr "Vedi gli articoli"
+
+#: patterns/home.php:14
+msgid "Learn all about jazz!"
+msgstr "Scopri tutto sul jazz!"
+
+#: patterns/hidden-404.php:21
+msgid "Search the site"
+msgstr "Cerca nel sito"
+
+#: patterns/hidden-404.php:17
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "La pagina che stavi cercando non è stata trovata. Potrebbe essere stato rimossa, rinominata o addirittura non esistere."
+
+#: patterns/footer-large.php:13
+msgid "Jazzy Notes is a volunteer group of passionate jazz listeners and musicians dedicated to learning and teaching improvised music."
+msgstr "Jazzy Notes è un gruppo di volontari composto da musicisti e ascoltatori di jazz, dedicato ad apprendere ed insegnare la musica improvvisata."
+
+#: patterns/footer-default.php:16 patterns/footer-large.php:27
+msgid "Built with WordPress"
+msgstr "Creato con WordPress"
+
+#: patterns/call-to-action.php:24
+msgid "Sign up"
+msgstr "Iscriviti"
+
+#: patterns/call-to-action.php:19
+msgid "Jazz up your inbox with exclusive news, swinging surprises, and the freshest jives for all the coolest cats."
+msgstr "Dai una scossa alla tua casella di posta, con notizie esclusive, sorprese piene di swing, e la musica jazz più fresca per gente sul pezzo."
+
+#: patterns/call-to-action.php:15
+msgid "Don't Miss a Beat"
+msgstr "Non perdere neanche una battuta"
+
+#: patterns/blue-image-with-quote.php:21
+msgid "Louis Armstrong"
+msgstr "Louis Armstrong"
+
+#: patterns/blue-image-with-quote.php:20
+msgid "“Every time I close my eyes blowing that trumpet of mine—I look right in the heart of good old New Orleans… It has given me something to live for\""
+msgstr "\"Ogni volta che chiudo gli occhi per soffiare nella mia tromba, guardo nel cuore della buona vecchia New Orleans… Mi ha dato qualcosa per cui vivere.\""
+
+#: patterns/black-image-with-text.php:26
+msgid "Waters"
+msgstr "Waters"
+
+#: patterns/black-image-with-text.php:18
+msgid "Ethel"
+msgstr "Ethel"
+
+#: functions.php:69
+msgid "Blue Quote"
+msgstr "Citazione blu"
+
+#: functions.php:53
+msgid "Slanted images"
+msgstr "Immagini inclinate"
+
+#: functions.php:44
+msgid "Rhomboid"
+msgstr "Romboide"
+
+#: functions.php:36
+msgid "Thick Stripes"
+msgstr "Strisce spesse"
+
+#: functions.php:29
+msgid "Thin Stripes"
+msgstr "Strisce sottili"
+
+#: functions.php:21
+msgid "Slant left"
+msgstr "Inclinato verso sinistra"
+
+#: functions.php:13
+msgid "Slant right"
+msgstr "Inclinato verso destra"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/author/wordpressdotorg/"
+msgstr "https://wordpress.org/themes/author/wordpressdotorg/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://github.com/WordPress/community-themes/tree/trunk/blue-note"
+msgstr "https://github.com/WordPress/community-themes/tree/trunk/blue-note"
