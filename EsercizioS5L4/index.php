@@ -13,19 +13,20 @@ abstract class MaterialeBibliotecario implements Prestito
 
     public function presta()
     {
-        return self::$contatoreMateriali--;
+        self::$contatoreMateriali--;
     }
+
     public function restituisci()
     {
-        return self::$contatoreMateriali++;
+        self::$contatoreMateriali++;
     }
 }
 
 
 class Libro extends MaterialeBibliotecario
 {
-    const type = "libro";
-    public static $contaLibri = 0;
+    public static $contaLibri = [];
+    public static $libriPrestati = [];
     public $titolo;
     public $autore;
     public $annoPubblicazione;
@@ -36,26 +37,39 @@ class Libro extends MaterialeBibliotecario
         $this->autore = $autore;
         $this->annoPubblicazione = $annoPubblicazione;
         parent::$contatoreMateriali++;
-        self::$contaLibri++;
+        self::$contaLibri[] = $this;
     }
 
     public function presta()
     {
         parent::$contatoreMateriali--;
-        self::$contaLibri--;
+        self::$libriPrestati[] = $this;
+        $index = array_search($this, self::$contaLibri, true);
+        if ($index !== false) {
+            array_splice(self::$contaLibri, $index, 1);
+        }
     }
 
     public function restituisci()
     {
+        if (!in_array($this, self::$libriPrestati, true)) {
+            echo "Impossibile restituire il libro '{$this->titolo}' perché non è stato prestato.";
+            return;
+        }
+
         parent::$contatoreMateriali++;
-        self::$contaLibri++;
+        self::$contaLibri[] = $this;
+        $index = array_search($this, self::$libriPrestati, true);
+        if ($index !== false) {
+            array_splice(self::$libriPrestati, $index, 1);
+        }
     }
 }
 
 class DVD extends MaterialeBibliotecario
 {
-    const type = "dvd";
-    public static $contaDVD = 0;
+    public static $contaDVD = [];
+    public static $dvdPrestati = [];
     public $titolo;
     public $regista;
     public $annoPubblicazione;
@@ -66,19 +80,32 @@ class DVD extends MaterialeBibliotecario
         $this->regista = $regista;
         $this->annoPubblicazione = $annoPubblicazione;
         parent::$contatoreMateriali++;
-        self::$contaDVD++;
-    }
-
-    public function restituisci()
-    {
-        parent::$contatoreMateriali++;
-        self::$contaDVD++;
+        self::$contaDVD[] = $this;
     }
 
     public function presta()
     {
         parent::$contatoreMateriali--;
-        self::$contaDVD--;
+        self::$dvdPrestati[] = $this;
+        $index = array_search($this, self::$contaDVD, true);
+        if ($index !== false) {
+            array_splice(self::$contaDVD, $index, 1);
+        }
+    }
+
+    public function restituisci()
+    {
+        if (!in_array($this, self::$dvdPrestati, true)) {
+            echo "Impossibile restituire il DVD '{$this->titolo}' perché non è stato prestato.";
+            return;
+        }
+
+        parent::$contatoreMateriali++;
+        self::$contaDVD[] = $this;
+        $index = array_search($this, self::$dvdPrestati, true);
+        if ($index !== false) {
+            array_splice(self::$dvdPrestati, $index, 1);
+        }
     }
 }
 
@@ -89,11 +116,12 @@ $d2 = new DVD("Il Re", "Quentin Tarantino", 1994);
 $l3 = new Libro("Il Re", "Quentin Tarantino", 1994);
 $d3 = new DVD("Il Re", "Quentin Tarantino", 1994);
 
+// $d1->presta();
+$d1->restituisci();
 
 echo "<br>";
-echo "Tot Libri = " . Libro::$contaLibri;
+echo "Tot Libri = " . count(Libro::$contaLibri);
 echo "<br>";
-echo "Tot DVD = " . DVD::$contaDVD;
+echo "Tot DVD = " . count(DVD::$contaDVD);
 echo "<br>";
 echo "TOTALONE: " . MaterialeBibliotecario::$contatoreMateriali;
-
