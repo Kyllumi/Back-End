@@ -124,4 +124,4 @@ echo "Tot Libri = " . count(Libro::$contaLibri);
 echo "<br>";
 echo "Tot DVD = " . count(DVD::$contaDVD);
 echo "<br>";
-echo "TOTALONE: " . MaterialeBibliotecario::$contatoreMateriali;
+echo "<h2>TOTALONE: " . MaterialeBibliotecario::$contatoreMateriali . "</h2>";
